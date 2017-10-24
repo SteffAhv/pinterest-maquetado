@@ -4,24 +4,30 @@ body {
   padding: 0px;
   font-family: 'Source Sans Pro', sans-serif;
 }
-
+/*Añadiendo estilos al header*/
 header {
-  position:fixed;
+  position: fixed;
   width: 100%;
   height: 22%;
   margin-top: 0px;
-  background:rgba(40, 186, 30, 0.24);
+  background:white;
+  /*Para que el header no se superponga con el contenido*/
+  z-index: 10;
 }
+
+/* Definiendo el tamaño de la search-bar */
 header section form {
   margin: auto;
   width:1000px;
 }
+/*Añadiendo estilos a la search-bar */
 .search-bar {
   border-radius: 10px;
   padding:8px;
   width: 80%;
   background-color:rgba(204, 198, 195, 0.34);
 }
+
 input=[type-text]{
   color: rgb(34, 37, 40);
 
@@ -29,11 +35,13 @@ input=[type-text]{
 hr {
   color:rgb(154, 153, 153);
 }
+/*Añadiendo estilos a la barra de navegacion*/
 header nav  {
   float: right;
   margin: auto;
-  width: 85%;
+  width: 87%;
 }
+/*añadiendo estilos a los botones*/
 header nav button{
   height: 60px;
   padding: 20px;
@@ -44,20 +52,32 @@ header nav button{
   color:white;
   font-weight: bold;
 }
+/* Añadiendo una imagen como background a tres botones*/
 .background-button{
   background-image: url("../assets/imgs/background-button.jpg");
   background-position: center;
 }
+/*Añadiendo estilos a las imágenes*/
 
 .pictures {
-  margin-top: 50px;
+  position: absolute;
+  margin-top: 50px ;
   column-count: 4;
   /*-webkit-column-width: 150px; */
   /*outline: 1px solid black;*/
-  padding: 100px;
+  padding: 120px;
+
  }
 img {
 	width:250px;
   height:200%;
   border-radius: 20px;
+}
+/*Disminuyendo los espacios en el texto*/
+ h4  {
+   height: 1px;
+ }
+
+p {
+  height: 1px;
 }

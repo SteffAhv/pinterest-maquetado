@@ -48,6 +48,7 @@
 .icon-flickr:before {
   content: "\eaa3";
 }
+/*Definiendo el color del icono pinterest*/
 .icon-pinterest{
   font-size: 40px;
   color: rgb(128, 35, 6);
