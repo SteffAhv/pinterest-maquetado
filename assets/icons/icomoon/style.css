@@ -48,6 +48,11 @@
 .icon-flickr:before {
   content: "\eaa3";
 }
+.icon-pinterest{
+  font-size: 40px;
+  color: rgb(128, 35, 6);
+  margin-left: 20px;
+}
 .icon-pinterest:before {
   content: "\ead1";
 }
