@@ -1,4 +1,4 @@
-# pinterest
+# Pinterest
 
 Crea una réplica de [Pinterest](https://laboratoria.github.io/pinterestify/).
 
